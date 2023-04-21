@@ -14,7 +14,7 @@ export default function Dictionary() {
   function handleResponse(response) {
     // console.log(response.data.meanings[1].definition);
 
-    setWordInfo(response.data.meanings[1].definition);
+    setWordInfo(response.data.meanings[0].definition);
   }
 
   function search(event) {
