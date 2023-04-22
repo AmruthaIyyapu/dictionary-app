@@ -9,6 +9,17 @@ function App() {
           <h1 className="mt-5 pt-5">Dictionary</h1>
           <Dictionary />
         </header>
+
+        <footer>
+          This website is coded by Amrutha Iyyapu and is open sourced at
+          <a
+            href="https://github.com/AmruthaIyyapu/dictionary-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>{" "}
+        </footer>
       </div>
     </div>
   );
