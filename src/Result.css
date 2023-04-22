@@ -22,3 +22,18 @@
 .Meaning .definition {
   margin-left: 50px;
 }
+
+.Synonyms li {
+  list-style: none;
+}
+.Meaning span {
+  color: gray;
+}
+
+.Synonyms span {
+  color: gray;
+}
+
+.Example span {
+  color: gray;
+}
