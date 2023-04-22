@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Dictionary.css";
+import Results from "./Results";
 import axios from "axios";
 
 export default function Dictionary() {
@@ -14,7 +15,7 @@ export default function Dictionary() {
   function handleResponse(response) {
     // console.log(response.data.meanings[1].definition);
 
-    setWordInfo(response.data.meanings[0].definition);
+    setWordInfo(response.data);
   }
 
   function search(event) {
@@ -48,8 +49,7 @@ export default function Dictionary() {
             className="m-5 btn btn-light p-3"
           />
         </form>
-        <h2>{word}</h2>
-        <div>{wordInfo}</div>
+        <Results result={wordInfo} />
       </div>
     );
   } else {
