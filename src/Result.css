@@ -3,6 +3,11 @@
   margin-left: 40px;
 }
 
+.Results .phonetic {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
 .Results h2 {
   color: gray;
   text-decoration: underline;
