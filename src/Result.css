@@ -35,6 +35,11 @@
   color: gray;
 }
 
+.Meaning,
+.Example {
+  margin: 0px;
+}
+
 .Synonyms span {
   color: gray;
 }
