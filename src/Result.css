@@ -1,6 +1,7 @@
 .Results {
   text-align: start;
   margin-left: 40px;
+  margin-bottom: 20px;
 }
 
 .Results .phonetic {
@@ -16,6 +17,7 @@
 
 .Results .meaning {
   font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .Meaning .partofspeech {

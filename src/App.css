@@ -1,8 +1,15 @@
 .App {
   text-align: center;
-}
-
-.App-header {
   background-color: #282c34;
   color: white;
+}
+
+footer {
+  margin: 40px auto;
+}
+
+footer a {
+  color: gray;
+  font-size: 18px;
+  font-weight: bold;
 }

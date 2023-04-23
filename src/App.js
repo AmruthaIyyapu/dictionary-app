@@ -11,13 +11,21 @@ function App() {
         </header>
 
         <footer>
-          This website is coded by Amrutha Iyyapu and is open sourced at
+          This website is coded by{" "}
+          <a
+            href="https://www.shecodes.io/graduates/72624-amrutha-iyyapu"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <em>Amrutha Iyyapu</em>
+          </a>{" "}
+          and is open sourced at{" "}
           <a
             href="https://github.com/AmruthaIyyapu/dictionary-app"
             target="_blank"
             rel="noreferrer"
           >
-            Github
+            <em>Github</em>
           </a>{" "}
         </footer>
       </div>
