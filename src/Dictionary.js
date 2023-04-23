@@ -53,7 +53,7 @@ export default function Dictionary(props) {
             type="search"
             placeholder="Enter a word"
             autoFocus="ON"
-            className="w-75"
+            className="input-field w-75"
             onChange={handleChange}
           />
           <input
